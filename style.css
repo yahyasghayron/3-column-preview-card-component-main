@@ -1,0 +1,100 @@
+body {
+  font-size: 15px;
+  background-color: hsl(0, 0%, 95%);
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.container {
+  display: flex;
+  align-self: center;
+  width: fit-content;
+}
+
+.card {
+  width: 200px;
+  height: 380px;
+  padding: 40px;
+}
+
+.title {
+  color: hsl(0, 0%, 95%);
+  font-family: "Big Shoulders Display", cursive;
+  font-size: xx-large;
+  margin: 20px 0;
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: "Lexend Deca", sans-serif;
+}
+button {
+  border: none;
+  background-color: hsl(0, 0%, 95%);
+  font-family: "Lexend Deca", sans-serif;
+  border-radius: 50px;
+  height: 40px;
+  width: 120px;
+  margin-top: 100px;
+}
+
+button:hover {
+  background: none;
+  color: hsl(0, 0%, 95%);
+  border: 2px solid hsl(0, 0%, 95%);
+}
+
+.b1 {
+  color: hsl(31, 77%, 52%);
+}
+
+.b2 {
+  color: hsl(184, 100%, 22%);
+}
+
+.b3 {
+  color: hsl(179, 100%, 13%);
+}
+
+.c1 {
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 5px 0 0 5px;
+}
+
+.c2 {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.c3 {
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0 5px 5px 0;
+}
+
+@media screen and (max-width: 900px) {
+  .container {
+    flex-direction: column;
+  }
+  .card {
+    height: auto;
+  }
+  .box {
+    height: auto;
+  }
+  button {
+    margin-top: 20px;
+  }
+}
